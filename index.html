@@ -3,53 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <style>
-    body {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
         background: #111;
         color: white;
-        margin: 0;
         font-family: Arial, sans-serif;
     }
 
-
-    .full-width-wrapper {
-        width: 100vw;
-        margin-left: calc(50% - 50vw);
+    .comic-container {
+        width: 100%;
+        max-width: 900px;   
+        margin: auto;        
+        padding: 20px;
+        text-align: center;
     }
 
-  .comic-container {
-    transform: scale(0.7);
-    transform-origin: top center;
-    width: 100%; 
-}
+    img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
 
-img {
-    width: 100%; 
-    height: auto;
-    margin: 20px 0;
-}
-    
 </style>
 </head>
 
 <body>
 
-<div class="full-width-wrapper">
-    <div class="comic-container">
-        <img src="op.png">
-        <img src="pg1.png">
-        <img src="pg2.png">
-        <img src="pg3.png">
-        <img src="pg4.png">
-        <img src="pg5.png">
-        <img src="pg6.png">
-        <img src="pg7.png">
-        <img src="pg8.png">
-        <img src="pg9.png">
-        <img src="pg10.png">
-        <img src="pg11.png">
-        <img src="end.png">
-    </div>
+<div class="comic-container">
+    <img src="op.png">
+    <img src="pg1.png">
+    <img src="pg2.png">
+    <img src="pg3.png">
+    <img src="pg4.png">
+    <img src="pg5.png">
+    <img src="pg6.png">
+    <img src="pg7.png">
+    <img src="pg8.png">
+    <img src="pg9.png">
+    <img src="pg10.png">
+    <img src="pg11.png">
+    <img src="end.png">
 </div>
 
 </body>
+</html>
 </html>
