@@ -2,118 +2,51 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <style>
 
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-/* WRAPPER */
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto; /* prevents shifting */
-}
-
-/* COMIC */
-.comic-container {
-    width: 100%;
-    max-width: 800px;   /* shrink images */
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
-    border-radius: 10px;
-}
-
-/* SIDEBAR */
-.sidebar {
-    width: 200px;
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    position: sticky;
-    top: 20px;
-}
-
-/* LINKS */
-.sidebar a {
-    display: block;
-    padding: 10px;
-    background: #333;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.sidebar a:hover {
-    background: #444;
-}
-
-/* MOBILE */
-@media (max-width: 900px) {
-    .wrapper {
-        flex-direction: column;
-        align-items: center;
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+        background: #111;
+        color: white;
+        font-family: Arial, sans-serif;
     }
 
-    .sidebar {
+    .comic-container {
         width: 100%;
-        position: static;
+        max-width: 900px;    
+        margin: auto;        
+        padding: 20px;
+        text-align: center;
     }
-}
+
+    img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
 
 </style>
 </head>
+
 <body>
 
-<div class="wrapper">
-
-    <div class="comic-container">
-        <img src="op.png">
-        <img src="pg1.png">
-        <img src="pg2.png">
-        <img src="pg3.png">
-        <img src="pg4.png">
-        <img src="pg5.png">
-        <img src="pg6.png">
-        <img src="pg7.png">
-        <img src="pg8.png">
-        <img src="pg9.png">
-        <img src="pg10.png">
-        <img src="pg11.png">
-        <img src="end.png">
-    </div>
-
-    <div class="sidebar">
-        <h3>Chapters</h3>
-        <a href="chapter1.html">Chapter 1</a>
-        <a href="chapter2.html">Chapter 2</a>
-        <a href="chapter3.html">Chapter 3</a>
-        <a href="chapter4.html">Chapter 4</a>
-        <a href="chapter5.html">Chapter 5</a>
-    </div>
-
+<div class="comic-container">
+    <img src="op.png">
+    <img src="pg1.png">
+    <img src="pg2.png">
+    <img src="pg3.png">
+    <img src="pg4.png">
+    <img src="pg5.png">
+    <img src="pg6.png">
+    <img src="pg7.png">
+    <img src="pg8.png">
+    <img src="pg9.png">
+    <img src="pg10.png">
+    <img src="pg11.png">
+    <img src="end.png">
 </div>
 
 </body>
